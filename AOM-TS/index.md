@@ -1,7 +1,7 @@
 ---
 title: "AV1 Codec ISO Media File Format Binding"
 documentVersion: "1.0.0"
-documentDate: "7 September 2018"
+documentDate: "DD/MM/YYY"
 documentName: "AV1 Codec ISO Media File Format Binding V1.0.0 "
 thisVersion: "https://aomediacodec.github.io/av1-isobmff//"
 issueTrackingName: "GitHub"
@@ -17,10 +17,14 @@ organizationName: "The Alliance for Open Media"
 toc: "True"
 tot: "True"
 tof: "True"
-documentHeader-1-1: "MM/DD/YY"
-documentHeader-1-2: "documentName"
+frontcoverHeader-1-1: {documentDate}
+frontcoverHeader-1-2: {documentName}
+frontcoverFooter-1-1: {thisVersion}
+frontcoverFooter-1-2: {Page}
+documentHeader-1-1: {documentDate}
+documentHeader-1-2: {documentName}
 documentFooter-1-1: {thisVersion}
-documentFooter-1-3: "Page"
+documentFooter-1-3: {Page}
 
 
 files:
