@@ -1,4 +1,5 @@
 ---
+layout: "default"
 title: "[Name of Specification]"
 status: "Draft"
 version: "x.y.z"
