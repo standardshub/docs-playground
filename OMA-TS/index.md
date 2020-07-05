@@ -5,6 +5,7 @@ version: "x.y.z"
 date: "yyyy-mm-dd"
 documentName: "OMA-TS-[FunctionalName]-Vx_y_z-yyyymmdd-D"
 files:
+ - License.txt
  - OMA_template_spec.md
  - Appendix_A.md
  - Appendix_B.md
