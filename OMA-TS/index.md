@@ -1,10 +1,23 @@
 ---
 layout: "default"
+frontCoverLogo: "oma-logo.png"
 title: "[Name of Specification]"
 status: "Draft"
 version: "x.y.z"
 date: "yyyy-mm-dd"
 documentName: "OMA-TS-[FunctionalName]-Vx_y_z-yyyymmdd-D"
+copyrightYear: "2020"
+organizationName: "Open Mobile Alliance"
+frontCoverHeader: "oma-logo.png"
+frontCoverFooter-1-1: "(C) 2020 Open Mobile Alliance"
+frontCoverFooter-2-1: "Used with the permission of the Open Mobile Alliance under the terms as stated in this document."
+documentHeader-1-1: {documentName}
+documentHeader-1-3: {page}
+documentHeaderLine: "True"
+documentFooter-1-1: "C" {copyrightYear} {organizationName}
+documentFooter-2-1: {frontCoverFooter-2-1}
+documentFooterLine: "True"
+
 files:
  - License.txt
  - OMA_template_spec.md
