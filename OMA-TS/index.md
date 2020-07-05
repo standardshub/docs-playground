@@ -41,6 +41,7 @@ DELETE THIS COMMENT
 files:
 List all the md files that are contained within the document specification
 Example
+  - License.txt
   - OMA-TS-LightweightM2M_Core-V1_1.md
   - Appendix_A.md
   - Appendix_B.md
