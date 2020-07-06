@@ -35,14 +35,20 @@ documentStatus: "Final Release"
 organizationName: "LoRA Alliance"
 frontCoverHeader-1-1: "lora-logo.png"
 frontCoverHeader-1-3: {documentName}
-frontCoverFooter-1-1: (c){copyRightYear} {organizationName}
-frontCoverFooter-1-2: {Page}
+frontCoverFooter-1-1: {(c)}{copyRightYear} {organizationName}
+frontCoverFooter-1-2: {Page} {Pages}
 frontCoverFooter-1-3: "The authors reserve the right to change specifications without notice"
+
 
 
 files:
   - sh_preamble-1.html
+    - frontCoverFooter-1-2: "specific"
+    - frontCoverFooter-1-3: {copyrightYear}
+    - 
   - sh_preamble-2.html
+    - $ref": "#/preamble-1.html"
+    - specificValue: "value"
   - RMSS.md
 ---
 ```
