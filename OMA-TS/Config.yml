@@ -8,8 +8,8 @@ organizationName: "Open Mobile Alliance"
 documentName: "OMA-TS-LightweightM2M_Core-V1_1_1-20190617-A"
 copyrightYear: "2019"
 systemFiles:
-  - page-1: "$ref:#/systemFile/page-1.html"
-  - page-2: "$ref:#/systemFile/page-2.html"
+  - page-1: "$ref:#/systemFiles/page-1.html"
+  - page-2: "$ref:#/systemFiles/page-2.html"
   - document: "$ref:#/systemFile/document.html"
   - license: "$ref:#/license.txt"
 
