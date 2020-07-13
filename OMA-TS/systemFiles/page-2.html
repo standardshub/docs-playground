@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="sylesheet" type="text/css" href="/Style_IE.css">
+  </head>
+  <body>
+    <div class="document-header">
+      <table class="no-border">
+        <tr>
+            <td>{{ $ref: "..Config.yml/#documentName }}</td>
+            <td>Page {{ x }} ({{ npageTotal }})</td>
+        </tr>
+      </table>
+    </div>
+
+    {{ license.tx}}
+
+    <div class="document-footer">
+      <table class="no-border">
+        <tr>
+          <td> {(c)} {{ $ref: "../Config.yml/#copyrightYear"}} {{ $ref: "../Config.yml/#organizationName" }}</td>
+        </tr>
+        <tr>
+          <td>Used with the permission of the Open Mobile Alliance under the terms as stated in this document.</td>
+        </tr>
+    </table>
+    </div>
+
+  </body>
+</html>
