@@ -2,40 +2,52 @@
 <html>
   <head>
     <style>
-      #font {
-          font-family: Arial, Helvetica, sans-serif;
-        }
-      #docTitle {
-        text-align: center;
-        font-size: 40px;
-      }
-      .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-      }
     </style>
   </head>
-<body id="font">
-<div id="header">
-  <figure>
-  	<img src="systemFiles/oma-logo.png" alt="oma-logo logo" class="center" >
-  </figure>
-</div>
+  <body>
+    <div class="front-cover-header">
+      <figure>
+        <img src="systemFiles/oma-logo.png" alt="oma-logo logo" class="center" >
+      </figure>
+    </div>
 
-<h1 id="docTitle">{$ref:"#/Config.yml/documentTitle"}</h1>
-<h2>{$ref:"#/Config.yml/documentStatus" "Version:"{$ref:"#/Config.yml/documentVersion"} "-" {$ref:"#/Config.yml/documentDate"}</h2>
-<h2>{$ref:"#/Config.yml/organizationName"}</h2>>
+    <div class="document-cover">
+      <table class="no-border">
+        <tr>
+          <td>
+            <div class="document-logo">
+            <img src="../systemFiles/oma-logo.png" />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="text-right text-xx-large"><b>{{ $ref: "../Config.yml/#documentTitle" }}</b></td>
+        </tr>
+        <tr>
+          <td class="text-right text-x-large">{{ $ref: "../Config.yml/#documentStatus" }} Version: {{ $ref: "../Config.yml/documentVersion" }} {{ $ref: "../Config.yml/documentDate" }}</td>
+        </tr>
+        <tr>
+          <td class="text-right text-x-large"><b>{{ $ref: "../Config.yml/#organizationName" }}</b></td>
+        </tr>
+        <tr>
+          <td class="text-right text-x-large">{{ $ref: "../Config.yml/#documentName" }}</td>
+        </tr>
+        <tr>
+          <td class="text-right text-large">{{ branchName }}: {{ buildDateStr }} <i>{{rev}}</i></td>
+        </tr>
+      </table>
+    </div>
 
-<h2>{$ref:"#/Config.yml/documentName"}</h2>
+    <div class="document-footer">
+      <table class="no-border">
+        <tr>
+          <td> {(c)} {{ $ref: "../Config.yml/#copyrightYear"}} {{ $ref: "../Config.yml/#organizationName" }}</td>
+        </tr>
+        <tr>
+          <td>Used with the permission of the Open Mobile Alliance under the terms as stated in this document.</td>
+        </tr>
+    </table>
+    </div>
 
-<h3>{branch} ":" {date} {time} "rev:" {hash}</h3>
-
-<div id="footer">
-  {borderline}
-  <p>{copyright} {ref:"#/Config.yml/organizationName"}</p>
-  <p>Used with the permission of the Open Mobile Alliance under the terms as stated in this document.</p>
-</div>
-</body>
+  </body>
 </html>
