@@ -1,7 +1,12 @@
 ---
-frontCoverLogo: "lora-logo.png"
+organizationLogo: "$ref:/systemFiles/lora-logo.png"
+documentTitle: "LoRaWAN Remote Multicast Setup Specification"
+documentVersion: "v1.0.0"
+documentDate: "September 10, 2018"
+documentStatus: "Final relase"
 copyrightYear: "2018"
 workingGroup: "FUOTA"
+organizationName: "LoRA Alliance"
 committeeChairName-1: "N.SORNIN"
 committeeChairCompany-1: "(Semtech)"
 committeeChairName-2: "A.YEGIN"
@@ -26,36 +31,13 @@ contributorName-6: "N.SORNIN"
 contributorCompany-6: "(Semtech)"
 contributorName-7: "J.STOKKING"
 contributorCompany-7: "(The Things Network Foundation)"
-contributorName-8: " A.YEGIN"
+contributorName-8: "A.YEGIN"
 contributorCompany-8: "(Actility)"
-documentName: "LoRAWAN Remote Multicast Setup Specification"
-docVersion: "V1.0.0"
-documentDate: "September 10, 2018"
-documentStatus: "Final Release"
-organizationName: "LoRA Alliance"
-frontCoverHeader-1-1: "lora-logo.png"
-frontCoverHeader-1-3: {documentName}
-frontCoverFooter-1-1: {(c)}{copyRightYear} {organizationName}
-frontCoverFooter-1-2: {Page} {Pages}
-frontCoverFooter-1-3: "The authors reserve the right to change specifications without notice"
-
-
-
-files:
-  - sh_preamble-1.html
-    - frontCoverFooter-1-2: "specific"
-    - frontCoverFooter-1-3: {copyrightYear}
-    - 
-  - sh_preamble-2.html
-    - $ref": "#/preamble-1.html"
-    - specificValue: "value"
+systemFiles:
+  - page-1: $ref:/systemFiles/page-1.html
+  - page-2: $ref:/systemFiles/page-2.html
+  - document: $ref:/systemFiles/document.html
+  - license: $ref:/license.txt
+userFiles:
   - RMSS.md
 ---
-```
-The default header is not in used.
-title: "[Name of Specification]"
-status: "Status"
-version: "x.y.z"
-date: "yyyy-mm-dd"
-documentName: "OMA-TS-[FunctionalName]-Vx_y_z-yyyymmdd-D"
-```
