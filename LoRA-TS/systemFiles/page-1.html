@@ -20,11 +20,11 @@
      </style>
   </head>
 <body id=font>
-<p id="para1">{documentName}LoRaWAN Remote Multicast Setup Specification v1.0.0</p>
+<p id="para1">{{ $ref:/config.yml/#documentName }} {{ $ref:/config.yml/#documentVersion }}</p>
  <p id="para2">Copyright © LoRa Alliance, Inc. ({copyrightYear}). All Rights Reserved.</p>
 
   <p id="para3">NOTICE OF USE AND DISCLOSURE</p>
-<p>Copyright © {organizationName}, Inc. ({copyrightYear}). All Rights Reserved. </p>
+<p>Copyright © {{ $ref:/config.yml/#organizationName }}, Inc. {{ $ref:/config.yml/#copyrightYear}}. All Rights Reserved. </p>
 <p>The information within this document is the property of the LoRa Alliance (“The Alliance”) and 
   its use and disclosure are subject to LoRa Alliance Corporate Bylaws, Intellectual Property Rights (IPR) Policy and 
   Membership Agreements.</p>
