@@ -10,7 +10,7 @@ copyrightYear: "2019"
 systemFiles:
   - page-1: "$ref:#/systemFiles/page-1.html"
   - page-2: "$ref:#/systemFiles/page-2.html"
-  - document: "$ref:#/systemFile/document.html"
+  - document: "$ref:#/systemFiles/document.html"
   - license: "$ref:#/license.txt"
 
 userFiles:
