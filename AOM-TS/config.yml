@@ -21,6 +21,5 @@ systemFiles:
  - license: "$ref:#/license.txt"
 
 userFiles:
- - Abstract.md
  - AOM.md
 ---
