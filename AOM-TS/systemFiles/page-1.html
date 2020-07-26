@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="sylesheet" type="text/css" href="/Style_IE.css">
+  </head>
+  <body>
+    <div class="document-cover">
+      <table class="no-border">
+        <tr>
+          <td>
+            <div class="document-logo">
+            <img src="../systemFiles/oma-logo.png" />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="text-right text-xx-large"><b>{{ $ref: "../Config.yml/#documentTitle" }}</b></td>
+        </tr>
+        <tr>
+          <td class="text-right text-x-large">{{ $ref: "../Config.yml/#documentVersion" }} ,  {{ $ref: "../Config.yml/documentDate" }} </td>
+        </tr>
+      </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td>
+                  <strong>This version:</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  {{ thisVersion}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  <strong>Issue Tracking:</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  <a href="" >GitHub</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  <strong>Editors:</strong>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  {{ editorName-x}} {{ editorEmail-x}} {{ editorCompany-x}}
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    Copyright {{ copyrightYear }}, The Alliance for Open Media 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Licensing information is available at http://aomedia.org/license/
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    {{ $ref: "/License.txt }}
+
+    <div class="document-footer">
+      <table class="no-border">
+        <tr>
+          <td> {{ $ref: "../Config.yml/#thisVersio"}} </td>
+          <td> {{ Page }} / {{Pages}}</td>
+        </tr>
+      </table>
+    </div>
+
+
+
+  </body>
+</html>
