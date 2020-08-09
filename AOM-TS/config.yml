@@ -1,0 +1,26 @@
+---
+documentTitle: "AV1 Codec ISO Media File Format Binding"
+documentVersion: "1.0.0"
+documentDate: "DD/MM/YYYY"
+documentName: "AV1 Codec ISO Media File Format Binding V1.0.0 "
+thisVersion: "https://aomediacodec.github.io/av1-isobmff//"
+issueTrackingName: "GitHub"
+issueTrackingURL: "https://github.com/AOMediaCodec/av1-isobmff/issues/"
+editors:
+ - name: "Cyril Concolato"
+   email: "cconcolato@netflix.com"
+   company: "(Netflix)"
+ - name: "Tom Finegan"
+   email: "tom.finegan@google.com"
+   company: "(Google)"
+copyrightYear: "2018"
+organizationName: "The Alliance for Open Media"
+systemFiles:
+ - page-1: "$ref:#/systemFiles/page-1.html"
+ - Abstract: "$ref:#/systemFiles/Abstract.html"
+ - document: "$ref:#/systemFiles/document.html"
+ - license: "$ref:#/license.txt"
+
+userFiles:
+ - AOM.md
+---

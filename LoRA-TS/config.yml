@@ -1,0 +1,52 @@
+---
+layout: default | omp1 | omp2 |
+  references: 
+ - systemFilesURL: "https://raw.githubusercontent.com/<organization>/<repository>/<branch>/"
+ - additionalSystemFilesURL: "https://raw.githubusercontent.com/<organization>/<repository>/<branch>/"
+organizationLogo:
+   "$ref": "#/references/systemFilesURL/systemFiles/org-logo.png"
+documentTitle: "LoRaWAN Remote Multicast Setup Specification"
+documentVersion: "v1.0.0"
+documentDate: "September 10, 2018"
+documentStatus: "Final release"
+copyrightYear: "2018"
+workingGroup: "FUOTA"
+organizationName: "LoRA Alliance"
+committeeChairs:
+ - name: "N.SORNIN"
+   company: "(Semtech)"
+ - name: "A.YEGIN"
+   company: "(Actility)"
+groupChairs:
+ - name: "J.CATALANO"
+   company: "(Kerlink)"
+ - name: "N.SORNIN"
+   company: "(Semtech)"
+editors:
+ - name: "J.CATALANO"
+   company: "(Kerlink)"
+contributors:
+ - name: "J.CATALANO"
+   company: "(Kerlink)"
+ - name: "J-P.COUPIGNY"
+   company: "(STMicroelectronics)"
+ - name: "J.DELCLEF"
+   company: "(STMicroelectronics)"
+ - name: "A.GRIGORE"
+   company: "(Flashnet)"
+ - name: "J.SCHLARB"
+   company: "(Comcast)"
+ - name: "N.SORNIN"
+   company: "(Semtech)"
+ - name: "J.STOKKING"
+   company: "(The Things Network Foundation)"
+ - name: "A.YEGIN"
+   company: "(Actility)"
+systemFiles:
+ - page-1: $ref:/systemFiles/page-1.html
+ - page-2: $ref:/systemFiles/page-2.html
+ - document: $ref:/systemFiles/document.html
+ - license: $ref:/license.txt
+userFiles:
+ - RMSS.md
+---

@@ -1,0 +1,20 @@
+---
+organizationLogo: "$ref:#/systemFiles/oma-logo.png"
+documentTitle: "Lightweight Machine to Machine Technical Specification: Core"
+documentStatus: "Approved"
+documentVersion: "V1.1.1"
+documentDate: "2019 Jun 17"
+organizationName: "Open Mobile Alliance"
+documentName: "OMA-TS-LightweightM2M_Core-V1_1_1-20190617-A"
+copyrightYear: "2019"
+systemFiles:
+  - page-1: "$ref:#/systemFiles/page-1.html"
+  - page-2: "$ref:#/systemFiles/page-2.html"
+  - document: "$ref:#/systemFiles/document.html"
+  - license: "$ref:#/license.txt"
+
+userFiles:
+ - OMA-TS-Lightweightm2M_Core.md
+ - Appendix_A.md
+ - Appendix_B.md
+---

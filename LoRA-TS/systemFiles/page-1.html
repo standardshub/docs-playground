@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <style>
+        #font {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #para1 {
+          font-size: 20px;
+          font-weight: bold;
+        }
+        #para2 {
+          line-height: 0%;
+        }
+        #para3 {
+          font-size: 40px;
+          font-weight: bold;
+        }
+     </style>
+  </head>
+<body id=font>
+<p id="para1">{{ $ref:/config.yml/#documentName }} {{ $ref:/config.yml/#documentVersion }}</p>
+ <p id="para2">Copyright © LoRa Alliance, Inc. ({copyrightYear}). All Rights Reserved.</p>
+ 
+ {{ $ref:"../license.txt" }}
+
+</body>
+</html>
