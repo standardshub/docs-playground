@@ -1,4 +1,6 @@
 ---
+ref: "https://raw.githubusercontent.com/<organization>/<repository>/<branch>/"
+ref-2: "https://raw.githubusercontent.com/<organization>/<repository>/<branch>/"
 organizationLogo: "$ref:/systemFiles/org-logo.png"
 documentTitle: "LoRaWAN Remote Multicast Setup Specification"
 documentVersion: "v1.0.0"
