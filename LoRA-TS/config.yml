@@ -38,10 +38,10 @@ contributors:
  - name: "A.YEGIN"
    company: "(Actility)"
 systemFiles:
-  - page-1: $ref:/systemFiles/page-1.html
-  - page-2: $ref:/systemFiles/page-2.html
-  - document: $ref:/systemFiles/document.html
-  - license: $ref:/license.txt
+ - page-1: $ref:/systemFiles/page-1.html
+ - page-2: $ref:/systemFiles/page-2.html
+ - document: $ref:/systemFiles/document.html
+ - license: $ref:/license.txt
 userFiles:
-  - RMSS.md
+ - RMSS.md
 ---
