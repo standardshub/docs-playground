@@ -1,5 +1,5 @@
 ---
-organizationLogo: "$ref:/systemFiles/lora-logo.png"
+organizationLogo: "$ref:/systemFiles/org-logo.png"
 documentTitle: "LoRaWAN Remote Multicast Setup Specification"
 documentVersion: "v1.0.0"
 documentDate: "September 10, 2018"
