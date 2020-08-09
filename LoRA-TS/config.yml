@@ -1,11 +1,14 @@
 ---
-ref: "https://raw.githubusercontent.com/<organization>/<repository>/<branch>/"
-ref-2: "https://raw.githubusercontent.com/<organization>/<repository>/<branch>/"
-organizationLogo: "$ref:/systemFiles/org-logo.png"
+layout: default | omp1 | omp2 |
+  references: 
+ - systemFilesURL: "https://raw.githubusercontent.com/<organization>/<repository>/<branch>/"
+ - additionalSystemFilesURL: "https://raw.githubusercontent.com/<organization>/<repository>/<branch>/"
+organizationLogo:
+   "$ref": "#/references/systemFilesURL/systemFiles/org-logo.png"
 documentTitle: "LoRaWAN Remote Multicast Setup Specification"
 documentVersion: "v1.0.0"
 documentDate: "September 10, 2018"
-documentStatus: "Final relase"
+documentStatus: "Final release"
 copyrightYear: "2018"
 workingGroup: "FUOTA"
 organizationName: "LoRA Alliance"
@@ -21,7 +24,7 @@ groupChairs:
    company: "(Semtech)"
 editors:
  - name: "J.CATALANO"
- - company: "(Kerlink)"
+   company: "(Kerlink)"
 contributors:
  - name: "J.CATALANO"
    company: "(Kerlink)"

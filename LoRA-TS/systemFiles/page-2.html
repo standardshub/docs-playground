@@ -23,7 +23,7 @@
       <tr>
         <td>
           <div class="document-header">
-            <img src="../images/lora-logo2.png" alt="LoRa logo" class="center" >
+            <img src="{{ $ref:#/organizationLogo}}" alt="LoRa logo" class="center" >
           </div>
         </td>
         <td> {{ $ref:/config.yml/#documentTitle }} {{ $ref:/cofig.yml/#documentVersion }} Specification</td>
@@ -70,11 +70,13 @@
           <strong>Editor:</strong>
         </td>
       </tr>
+      {{#each $ref:/config.yml/#editors}}
       <tr>
         <td>
           {{ $ref:/config.yml/#editors.name }} ({{ $ref:/config.yml/#editors.company }})
         </td>
       </tr>
+      {{/each}}
       <tr>
         <td>
           <strong>Contributors:</strong>
